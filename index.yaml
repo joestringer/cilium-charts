@@ -3,9 +3,9 @@ entries:
   cilium:
   - apiVersion: v1
     appVersion: 1.7.0-rc2
-    created: "2020-01-29T00:17:43.135035954Z"
+    created: "2020-01-29T00:45:05.526806238Z"
     description: Helm chart for Cilium
-    digest: d5148272401613375bded963a2dfb8bc8048fba097ed001321157b5e780e21b2
+    digest: 48e1a189a8254990e3987963bc9f3ddc018cff54b4c0af97cb31eae5eec81020
     engine: gotpl
     name: cilium
     sources:
@@ -16,7 +16,7 @@ entries:
     version: 1.7.0-rc2
   - apiVersion: v1
     appVersion: 1.6.5
-    created: "2020-01-29T00:17:43.133196842Z"
+    created: "2020-01-29T00:45:05.525523835Z"
     description: Helm chart for Cilium
     digest: 6184b1591ef808dc4741fce1c97be541118e804293ba7bb4a8aa9c570067cc62
     name: cilium
@@ -25,4 +25,4 @@ entries:
     urls:
     - cilium-1.6.5.tgz
     version: 1.6.5
-generated: "2020-01-29T00:17:43.131822433Z"
+generated: "2020-01-29T00:45:05.524202131Z"
