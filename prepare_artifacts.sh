@@ -24,3 +24,5 @@ helm repo index . --merge index.yaml
 $EDITOR README.md
 git add README.md index.yaml cilium-$VERSION.tgz
 git commit -s -m "Add $VERSION@$(cd $CILIUM_DIR; git rev-parse HEAD) ⎈"
+
+echo "Committed! Use git to push the new charts to helm.cilium.io"
