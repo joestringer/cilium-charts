@@ -18,13 +18,15 @@ fi
 
 CHART_PATH="$CILIUM_DIR/install/kubernetes/cilium/Chart.yaml"
 VERSION="$(awk '/version:/ { print $2; exit; } ' $CHART_PATH)"
+TMPDIR="$CWD/_build"
+mkdir -p "$TMPDIR"
 cd $CILIUM_DIR/install/kubernetes
-helm package --destination "$CWD" cilium
+helm package --destination "$TMPDIR" cilium
 cd -
-helm repo index . --merge index.yaml
+helm repo index --merge index.yaml "$TMPDIR"
+mv $TMPDIR/*.tgz .
+mv $TMPDIR/index.yaml .
+rm -rf $TMPDIR
 $EDITOR README.md
 git add README.md index.yaml cilium-$VERSION.tgz
 git commit -s -m "Add $VERSION@$(cd $CILIUM_DIR; git rev-parse HEAD) ⎈"
-./fix_dates.sh
-git add index.yaml
-git commit --amend
