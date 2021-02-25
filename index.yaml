@@ -134,12 +134,12 @@ entries:
             the cluster which are managed by Cilium, including enforcement status,
             IP addressing and whether the networking is succesfully operational.
     apiVersion: v2
-    appVersion: 1.10.0-dev
-    created: "2021-02-25T10:41:48.799803216-08:00"
+    appVersion: 1.10-dev
+    created: "2021-02-25T10:42:46.9205057-08:00"
     description: eBPF-based Networking, Security, and Observability
-    digest: 28e676caeae93badf8c47dc93642edfda0377357439454dd390bc31932cddad4
+    digest: b3f59e8466c66db1bbee1320961f4182992ffc52a94b801f30afd6f4eba86827
     home: https://cilium.io/
-    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10.0/Documentation/images/logo-solo.svg
+    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10/Documentation/images/logo-solo.svg
     keywords:
     - BPF
     - eBPF
@@ -153,8 +153,8 @@ entries:
     sources:
     - https://github.com/cilium/cilium
     urls:
-    - cilium-1.10.0-dev.tgz
-    version: 1.10.0-dev
+    - cilium-1.10-dev.tgz
+    version: 1.10-dev
   - annotations:
       artifacthub.io/crds: |
         - kind: CiliumNetworkPolicy
@@ -2016,4 +2016,4 @@ entries:
     urls:
     - cilium-1.6.5.tgz
     version: 1.6.5
-generated: "2021-02-25T10:42:16.590871847-08:00"
+generated: "2021-02-25T10:42:46.916234743-08:00"
