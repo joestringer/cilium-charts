@@ -57,12 +57,12 @@ entries:
             the cluster which are managed by Cilium, including enforcement status,
             IP addressing and whether the networking is succesfully operational.
     apiVersion: v2
-    appVersion: 1.10.0
-    created: "2021-02-25T10:42:16.594947119-08:00"
+    appVersion: 1.10.1
+    created: "2021-02-25T10:43:12.711550082-08:00"
     description: eBPF-based Networking, Security, and Observability
-    digest: f4de1090de38c3fc8c2c8b013b8cfb0371639260aa106b0ff163394e4626f8f8
+    digest: 7c6123f56c555cd811c548758ae0cec71bf0d26a750d1be701c12ec31eca2914
     home: https://cilium.io/
-    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10.0/Documentation/images/logo-solo.svg
+    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10.1/Documentation/images/logo-solo.svg
     keywords:
     - BPF
     - eBPF
@@ -76,8 +76,8 @@ entries:
     sources:
     - https://github.com/cilium/cilium
     urls:
-    - cilium-1.10.0.tgz
-    version: 1.10.0
+    - cilium-1.10.1.tgz
+    version: 1.10.1
   - annotations:
       artifacthub.io/crds: |
         - kind: CiliumNetworkPolicy
@@ -134,12 +134,12 @@ entries:
             the cluster which are managed by Cilium, including enforcement status,
             IP addressing and whether the networking is succesfully operational.
     apiVersion: v2
-    appVersion: 1.10-dev
-    created: "2021-02-25T10:42:46.9205057-08:00"
+    appVersion: 1.10.0
+    created: "2021-02-25T10:42:16.594947119-08:00"
     description: eBPF-based Networking, Security, and Observability
-    digest: b3f59e8466c66db1bbee1320961f4182992ffc52a94b801f30afd6f4eba86827
+    digest: f4de1090de38c3fc8c2c8b013b8cfb0371639260aa106b0ff163394e4626f8f8
     home: https://cilium.io/
-    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10/Documentation/images/logo-solo.svg
+    icon: https://cdn.jsdelivr.net/gh/cilium/cilium@v1.10.0/Documentation/images/logo-solo.svg
     keywords:
     - BPF
     - eBPF
@@ -153,8 +153,8 @@ entries:
     sources:
     - https://github.com/cilium/cilium
     urls:
-    - cilium-1.10-dev.tgz
-    version: 1.10-dev
+    - cilium-1.10.0.tgz
+    version: 1.10.0
   - annotations:
       artifacthub.io/crds: |
         - kind: CiliumNetworkPolicy
@@ -2016,4 +2016,4 @@ entries:
     urls:
     - cilium-1.6.5.tgz
     version: 1.6.5
-generated: "2021-02-25T10:42:46.916234743-08:00"
+generated: "2021-02-25T10:43:12.707364226-08:00"
